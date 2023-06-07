@@ -1,0 +1,17 @@
+.wather_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #ededed;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.wather_table .wather_table_title{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,135 @@
+ .top_btn_box{
+    text-align: right;
+    width: 100%;
+    flex: 0 0 100%;
+ }
+ .top_btn_box .weather_history_btn{
+    margin-left: auto;
+    display: block;
+ }
+.wather_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    margin-top: 50px;
+    background-color: #ededed;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.wather_icon {
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    background-color: #ffe074;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wather_icon_temp {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.wather_wrp {
+    justify-content: center;
+    background-color: #fff;
+}
+
+.wather_wrp .temp_c {
+    font-size: 41px;
+    font-weight: 700;
+}
+
+.wather_wrp .temp_c sup {
+    font-size: 15px;
+}
+
+.wather_details {
+    display: flex;
+    align-items: center;
+}
+
+.wather_cast {
+    background-color: #ffffffc7;
+    margin: 10px;
+    min-width: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    border-radius: 5px;
+    min-height: 84px;
+}
+
+.wather_cast .cast_title {
+    color: #16397b;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.wather_cast .cast_value {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.wather_day_box {
+    background-color: #ededed;
+    padding: 16px;
+    border-radius: 9px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-width: 13.50%;
+}
+
+.wather_day_icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: #16397b33;
+    margin: 10px 0;
+}
+
+.wather_day_icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.wather_title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 9px 0;
+}
+
+.wather_temp {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wather_day_wrp {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.wather_bottom_card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.wather_bottom_card .cast_title {
+    min-width: 110px;
+    font-weight: 500;
+}
+.wather_bottom_card .cast_value{
+    color: #3d3d3d;
+}
